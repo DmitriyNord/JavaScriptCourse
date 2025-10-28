@@ -52,18 +52,84 @@
 // console.log (ProjectTime<timeHave)
 // console.log (Payperhour*ProjectTime)
 
-const projectName = 'Сайт Магазина';
-const price = 2000;
-const author = 'Василий Пупкин ';
-const template = author + 'заказал' + projectName + ' по цене' + price;
-console.log(template);
+// const projectName = 'Сайт Магазина';
+// const price = 2000;
+// const author = 'Василий Пупкин ';
+// const template = author + 'заказал' + projectName + ' по цене' + price;
+// console.log(template);
 
-const template2 = `${author} заказал  ${projectName} по цене  ${price} $`
-console.log(template2);
+// const template2 = `${author} заказал  ${projectName} по цене  ${price} $`
+// console.log(template2);
 
-const template3 = 'Проект \n' + 'Цена:' + price  + '$';
-console.log(template3);
+// const template3 = 'Проект \n' + 'Цена:' + price  + '$';
+// console.log(template3);
 
-const template4 = `Проект
-Цена: ${price}$`;
-console.log(template4);
+// const template4 = `Проект
+// Цена: ${price}$`;
+// console.log(template4);
+
+// const age = '18';
+// console.log(Number(age)+5);// 23
+// console.log( age-3); // - / * - неявноc
+// const userName = 'Вася';
+// console.log (Number(userName)+5);
+// console.log (typeof NaN);
+// console.log(String(4)+7);
+// console.log(Boolean(1));
+
+// const a= 2 + '10';
+// console.log(a - 10);
+// Данные
+// //const payRateUSD = 80;
+// const projectHours = 40;
+// const availableHours = (11-2) * 5 ;
+// //Стоимость работ 2 круг 
+// console.log('Смогу ли я работать?' +(availableHours>projectHours));
+// console.log('Стоимость работ: ' + projectHours *payRateUSD ); 
+
+// console.log ( Boolean(0));
+// console.log ( Boolean(''));
+
+// const money = 10; 
+// const canBuy = money >50;
+
+// if (canBuy) {
+// console.log('может купить наш продукт');
+// } else if ( money > 5) {
+//     console.log('Куплен mini продукт');
+// } 
+
+// else { 
+//     console.log('Не хватает баланса');
+
+// }
+
+
+
+// console.log('Итог');
+
+
+// let основная сумма = 10000, ставка = 5, время = 2;  
+// let A = основная сумма × (Math.pow((1 + ставка / 100), время));  
+// let CI = A − основная сумма;  
+// console.log("Сложные проценты равны" + CI); 
+
+// const deposit = 12000;
+// const rate = 0.07;
+// const depositLength = 24;
+// const HouseCost = 13500;
+
+// const res = deposit * (1 + rate / 12) ** 24;
+
+// if(res > HouseCost) {
+//     console.log(`Мы накопили: ${res}Можем купить. Остаток ${res - HouseCost}`);
+// } else {
+//     console.log('Купить не сможем');
+// }
+
+
+const SecretNumber = 7;
+
+if(SecretNumber ==7 ) {
+    console.log('Угадал');
+}   
