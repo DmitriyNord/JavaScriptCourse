@@ -128,8 +128,9 @@
 // }
 
 
-const SecretNumber = 7;
+// const SecretNumber = 7;
 
-if(SecretNumber ==7 ) {
-    console.log('Угадал');
-}   
+// if(SecretNumber ==7 ) {
+//     console.log('Угадал');
+// }   
+// chisto denek zabit chtobi green kubik buyl
