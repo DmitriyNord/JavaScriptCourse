@@ -133,4 +133,72 @@
 // if(SecretNumber ==7 ) {
 //     console.log('Угадал');
 // }   
-// chisto denek zabit chtobi green kubik buyl
+
+// const role = 'manager'
+
+// if (role === 'manager')  {
+// console.log ('Менеджер');
+// } else if (role === 'admin') {
+//     console.log ('Админ');
+// } else if (role === 'ceo') {
+//     console.log ('ceo');
+// } else {
+//     console.log('мы тебя не знаем');
+// }
+
+// switch (role) {
+//  case 'manager':
+//     console.log('Менеджер');
+//     break;
+//     case 'admin':
+//     console.log('Админ');
+//     break;
+//     case 'ceo':
+//     console.log('ceo');
+//     break;
+//     default:
+//         console.log('Мы тебя не знаем');
+// }
+
+// const answer = 'Я не робот'
+// switch (answer) {
+//     case '22':
+//         console.log('Успех');
+//         break;
+//         case '-8':
+//             console.log('Успех');
+//             break;
+//             case 'Я не робот':
+//                 console.log('Успех');
+//                 break;
+//                 default:
+//                     console.log('Ты робот');
+
+// }
+
+
+// const res = prompt('Скольк будет 7 + или -15?');
+// switch(true) {
+//     case res === 'Я не робот ':
+//     case Number(res) === 22:
+//     case Number(res) === -8:
+//         console.log('Успех');
+//         break;
+//         default:
+//             console.log('Вы робот!');
+// }
+
+const res = prompt('Сколько будет 7+ или -15?');
+if (res ==='Я не робот') {
+    console.log('Успех');
+} else {
+    const resNum = Number(res);
+    switch(resNum) {
+        case 22:
+        case -8:
+            console.log('Успех');
+            break;
+            default:
+                console.log('Вы робот!');
+    }
+}
