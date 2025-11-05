@@ -188,17 +188,44 @@
 //             console.log('Вы робот!');
 // }
 
-const res = prompt('Сколько будет 7+ или -15?');
-if (res ==='Я не робот') {
-    console.log('Успех');
-} else {
-    const resNum = Number(res);
-    switch(resNum) {
-        case 22:
-        case -8:
-            console.log('Успех');
-            break;
-            default:
-                console.log('Вы робот!');
-    }
-}
+// const res = prompt('Сколько будет 7+ или -15?');
+// if (res ==='Я не робот') {
+//     console.log('Успех');
+// } else {
+//     const resNum = Number(res);
+//     switch(resNum) {
+//         case 22:
+//         case -8:
+//             console.log('Успех');
+//             break;
+//             default:
+//                 console.log('Вы робот!');
+//     }
+// }
+// const isAdmin = true;
+// const canWrite = true;
+
+// console.log(`Системный файл ${isAdmin && canWrite}`);
+// console.log(`Обычный файл ${isAdmin || canWrite}`);
+// console.log(`Инвертируем права админа ${!isAdmin}`);
+
+// const isEdited = true;
+// const isSuperAdmin = true;
+
+// console.log(`Системный файл с редактированием ${
+//     isAdmin && canWrite && (!isEdited || isSuperAdmin)
+// }`);
+
+// console.log('Вася' || 'Олег');
+// console.log('false' || 'Олег');
+// console.log('Вася' || 'false');
+
+
+// let a;
+// const username = a || 'Петя';
+// console.log(username);
+
+
+
+let username = 'Вася';
+console.log(username || 'Default Username');
