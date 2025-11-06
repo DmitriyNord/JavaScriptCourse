@@ -227,5 +227,31 @@
 
 
 
-let username = 'Вася';
-console.log(username || 'Default Username');
+// let username = 'Вася';
+// console.log(username || 'Default Username');
+
+// console.log(username ?? 'Default Username');
+
+
+
+// 
+// const balance = 1200
+// const bonusBalance = 900;
+// const isBanned = true;
+// const isExist = false
+// const isSelling = true;
+// const canBuy= (balance > 1000 || bonusBalance >100)
+// && !isBanned
+// && !isExist
+// && isSelling;
+// console.log(` Могу купить игру: ${canBuy ? 'Да' : 'Нет'}`);
+
+
+
+function logName(name, surname) {
+console.log(`Моё имя ${name} ${surname}`)
+
+}
+logName('Пенис', 'Душилин')
+
+function countDepositSum
