@@ -254,4 +254,14 @@ console.log(`Моё имя ${name} ${surname}`)
 }
 logName('Пенис', 'Душилин')
 
-function countDepositSum
+function countdepositSum(depositInUSD, month, rate ){
+const sum = depositInUSD * (1+ rate / 12 ) ** month;
+return sum;
+
+}
+
+const example1 = countdepositSum(1000, 24, 0.12);
+console.log (example1);
+
+const example2 = countdepositSum(1000, 48, 0.10);
+console.log (example1);
